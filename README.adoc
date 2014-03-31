@@ -2,9 +2,9 @@
 tags: [android, maven]
 projects: [spring-android]
 ---
-:spring_boot_version: 0.5.0.M6
 :Android_Manifest: http://developer.android.com/guide/topics/manifest/manifest-intro.html
 :Android_Maven_Plugin: https://code.google.com/p/maven-android-plugin
+:jdk: http://www.oracle.com/technetwork/java/javase/downloads/index.html
 :sdk: http://developer.android.com/sdk/index.html
 :toc:
 :icons: font
@@ -20,6 +20,7 @@ You'll create an Android application that gives you the time of day, and then bu
 
  - About 15 minutes
  - A favorite text editor or IDE
+ - {jdk}[JDK 6] or later
  - {sdk}[Android SDK]
  - An Android device or Emulator
 
@@ -86,12 +87,12 @@ mvn -v
 If all goes well, you should see installation information like this:
 
 ....
-Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 08:51:28-0500)
-Maven home: /usr/local/apache-maven/apache-maven-3.0.5
-Java version: 1.7.0_21, vendor: Oracle Corporation
-Java home: /Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home/jre
+Apache Maven 3.2.1 (ea8b2b07643dbb1b84b6d16e1f08391b666bc1e9; 2014-02-14T11:37:52-06:00)
+Maven home: /usr/local/apache-maven/apache-maven-3.2.1
+Java version: 1.8.0, vendor: Oracle Corporation
+Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre
 Default locale: en_US, platform encoding: UTF-8
-OS name: "mac os x", version: "10.8.3", arch: "x86_64", family: "mac"
+OS name: "mac os x", version: "10.9.2", arch: "x86_64", family: "mac"
 ....
 
 You now have Maven installed.
@@ -208,4 +209,4 @@ include::initial/pom.xml[]
 
 == Summary
 
-Congratulations! You have created a simple yet effective Maven project definition for building Java projects.
+Congratulations! You have created a simple yet effective Maven project definition for building Android projects.
