@@ -187,7 +187,7 @@ If you were to run `mvn package` to build the project now, the build would fail 
 <dependency>
     <groupId>joda-time</groupId>
     <artifactId>joda-time</artifactId>
-    <version>2.2</version>
+    <version>2.3</version>
 </dependency>
 ----
 
