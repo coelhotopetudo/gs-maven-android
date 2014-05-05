@@ -25,7 +25,7 @@ You'll create an Android application that gives you the time of day, and then bu
  - An Android device or Emulator
 
 
-include::https://raw.github.com/spring-guides/getting-started-macros/master/how_to_complete_this_guide.adoc[]
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/how_to_complete_this_guide.adoc[]
 
 
 [[scratch]]
@@ -33,9 +33,9 @@ include::https://raw.github.com/spring-guides/getting-started-macros/master/how_
 
 First, you set up an Android project for Maven to build.  To keep the focus on Maven, make the project as simple as possible for now. If this is your first time working with Android projects, refer to link:/guides/gs/android[Installing the Android Development Environment] to help configure your development environment.
 
-include::https://raw.github.com/spring-guides/getting-started-macros/master/create_directory_structure_org_hello.adoc[]
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/create_directory_structure_org_hello.adoc[]
 
-include::https://raw.github.com/spring-guides/getting-started-macros/master/create_android_manifest.adoc[]
+include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/create_android_manifest.adoc[]
 
 `AndroidManifest.xml`
 [source,xml]
